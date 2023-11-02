@@ -1,0 +1,67 @@
+body
+{
+    /* background-color: ; */
+}
+#banner
+{
+    background: linear-gradient(rgba(0,0,0,0.5),#009688),url('images\taxi-home.webp');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.bar a
+{
+    margin-left: 50px ;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 25px;
+    font-size: 30px ;
+}
+
+.logo
+{
+    width:140px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+}
+.bannertext
+{
+    text-align: center;
+    color: white;
+    padding-top: 130px;
+}
+.bannertext h1
+{
+    font-size: 100px;
+    font-family: 'Kaushan Script', cursive;
+}
+.bannertext p
+{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.bannerbtn
+{
+margin: 70px auto 0;
+
+}
+.bannerbtn a
+{
+    width: 150px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.bannerbtn a:hover
+{
+    background-color: red;
+}
+
